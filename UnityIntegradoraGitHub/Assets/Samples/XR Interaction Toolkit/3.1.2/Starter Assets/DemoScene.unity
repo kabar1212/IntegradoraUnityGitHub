@@ -340,7 +340,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 73336306}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
 --- !u!1001 &95759868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -439,8 +438,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 360204330}
   m_SourcePrefab: {fileID: 100100000, guid: 46822d684ca5e39448532279419e882b, type: 3}
-=======
->>>>>>> 64df622618eb74601cb36a223053d022569c2e43
 --- !u!1 &135211812
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,7 +1090,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 439588100}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &254832902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,8 +1122,6 @@ Transform:
   - {fileID: 1277964701}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> 64df622618eb74601cb36a223053d022569c2e43
 --- !u!1 &300004779
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,7 +1340,6 @@ Transform:
   - {fileID: 2028719448}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &360204326 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5318399367348639623, guid: 46822d684ca5e39448532279419e882b, type: 3}
@@ -1373,8 +1366,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.37700006, y: 0.5099999, z: 0.1501005}
   m_Center: {x: -0.51749986, y: 0.51903987, z: 0.67492944}
-=======
->>>>>>> 64df622618eb74601cb36a223053d022569c2e43
 --- !u!1 &421848383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1834,7 +1825,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 564796391}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
 --- !u!1 &585017657 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3839483033475739675, guid: 46822d684ca5e39448532279419e882b, type: 3}
@@ -1861,8 +1851,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2999998, y: 0.39845058, z: 0.08826367}
   m_Center: {x: -0.65000015, y: 0.8032693, z: 0.70585114}
-=======
->>>>>>> 64df622618eb74601cb36a223053d022569c2e43
 --- !u!1 &674400328
 GameObject:
   m_ObjectHideFlags: 0
@@ -3868,7 +3856,6 @@ Transform:
   - {fileID: 135211813}
   m_Father: {fileID: 1592412663}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &1277964700 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 46822d684ca5e39448532279419e882b, type: 3}
@@ -4037,8 +4024,6 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
-=======
->>>>>>> 64df622618eb74601cb36a223053d022569c2e43
 --- !u!1 &1300988326
 GameObject:
   m_ObjectHideFlags: 0
@@ -4363,7 +4348,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431094983}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
 --- !u!1 &1441930553 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6254562589451403307, guid: 46822d684ca5e39448532279419e882b, type: 3}
@@ -4390,8 +4374,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2107004, y: 0.77770036, z: 0.045689333}
   m_Center: {x: -0.63615066, y: 0.47696787, z: 0.7197361}
-=======
->>>>>>> 64df622618eb74601cb36a223053d022569c2e43
 --- !u!1 &1486677401
 GameObject:
   m_ObjectHideFlags: 0
@@ -5949,7 +5931,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940391264}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
 --- !u!1 &1966139073 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2298352474457084509, guid: 46822d684ca5e39448532279419e882b, type: 3}
@@ -5976,8 +5957,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.3, y: 0.39845052, z: 0.08826367}
   m_Center: {x: -0.6520003, y: 0.20481049, z: 0.70585114}
-=======
->>>>>>> 64df622618eb74601cb36a223053d022569c2e43
 --- !u!1 &2026743305
 GameObject:
   m_ObjectHideFlags: 0
@@ -6194,7 +6173,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028719447}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
 --- !u!1 &2038698166 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1485777863695065814, guid: 46822d684ca5e39448532279419e882b, type: 3}
@@ -6221,8 +6199,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.14391696, y: 0.06382857, z: 0.0069969874}
   m_Center: {x: -1.1803436, y: 0.8807443, z: 0.7270727}
-=======
->>>>>>> 64df622618eb74601cb36a223053d022569c2e43
 --- !u!1 &2072013544
 GameObject:
   m_ObjectHideFlags: 0
@@ -8592,7 +8568,4 @@ SceneRoots:
   - {fileID: 1248193075}
   - {fileID: 942989405}
   - {fileID: 807611361}
-<<<<<<< HEAD
   - {fileID: 254832903}
-=======
->>>>>>> 64df622618eb74601cb36a223053d022569c2e43
