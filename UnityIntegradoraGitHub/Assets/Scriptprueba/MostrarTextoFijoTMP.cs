@@ -8,7 +8,7 @@ public class MostrarTextoConEventos : MonoBehaviour
 
     public void MostrarTexto()
     {
-        textoTMP.text = "¡Oscar es gay";
+        textoTMP.text = "¡Has agarrado el objeto!";
         textoCanvas.SetActive(true);
     }
 
