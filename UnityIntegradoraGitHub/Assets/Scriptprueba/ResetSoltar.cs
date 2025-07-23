@@ -22,6 +22,10 @@ public class ResetAfterDelay : MonoBehaviour
 
         if (grabInteractable != null)
         {
+            // 🔧 Desactivar el lanzamiento al soltar para evitar error con XRGazeAssistance
+            grabInteractable.throwOnDetach = false;
+
+            // Suscribirse al evento de soltado
             grabInteractable.selectExited.AddListener(OnRelease);
         }
         else
@@ -43,7 +47,7 @@ public class ResetAfterDelay : MonoBehaviour
     private IEnumerator ResetAfterSeconds(float delay)
     {
         yield return new WaitForSeconds(delay);
-        yield return null; // Esperar un frame extra por seguridad
+        yield return null; // Esperar un frame extra
 
         Rigidbody rb = GetComponent<Rigidbody>();
         if (rb != null)
@@ -52,18 +56,18 @@ public class ResetAfterDelay : MonoBehaviour
             rb.linearVelocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
 
-            // Luego ponerlo en modo cinemático
+            // Luego poner en modo cinemático
             rb.isKinematic = true;
         }
 
-        // Mover el objeto a su posición y rotación original
+        // Restaurar posición y rotación
         transform.SetPositionAndRotation(initialPosition, initialRotation);
 
-        yield return null; // Esperar un frame para aplicar correctamente
+        yield return null; // Esperar otro frame
 
         if (rb != null)
         {
-            // Reactivar la física (opcional según tu necesidad)
+            // Reactivar física
             rb.isKinematic = false;
         }
     }
